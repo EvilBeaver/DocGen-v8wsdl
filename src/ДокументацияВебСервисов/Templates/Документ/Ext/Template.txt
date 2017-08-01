@@ -321,7 +321,7 @@ if(c==null)c=new H();c.bp.push(e);b.a8();if(b.Y()){c.bk=true;return c}}}this.Mar
 			md.SafeMode = false;
 			var output=md.Transform(text);
 		
-			$('#source').hide();
+			$('#source').remove();
 			$('#content').html(output);
 		})
 		
